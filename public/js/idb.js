@@ -52,6 +52,7 @@ function uploadBudget() {
             .then(response => response.json())
             .then(serverResponse => {
                 if(serverResponse.message) {
+                    console.log("broken at serverResponse.message")
                     throw new Error(serverResponse);
                 }
 
@@ -64,6 +65,7 @@ function uploadBudget() {
                 alert('All saved transactions have been submitted!');
             })
             .catch(err => {
+                console.log("broken at catch err")
                 console.log(err);
             });
         }
