@@ -18,10 +18,11 @@ request.onsuccess = function(event) {
 };
 
 request.onerror = function(event) {
-    console.log(event.target.errorCode);
+    console.log(event.target.errorCode, " hello from line 21");
 };
 
 function saveRecord (record) {
+    console.log('Hello from saveRecord');
     const transaction = db.transaction(['new_budget'], 'readwrite');
 
     const budgetObjectStore = transaction.objectStore('new_budget');
@@ -30,6 +31,8 @@ function saveRecord (record) {
 };
 
 function uploadBudget() {
+    console.log('Hello from uploadBudget');
+
     const transaction = db.transaction(['new_budget'], 'readwrite');
 
     const budgetObjectStore = transaction.objectStore('new_budget');
