@@ -1,23 +1,22 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "lite-server": "lite-server"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/pschlafley/budget-tracker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/pschlafley/budget-tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/pschlafley/budget-tracker#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
