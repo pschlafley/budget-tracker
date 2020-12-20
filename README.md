@@ -5,6 +5,7 @@
   ## Description
   This is a node.js application using MongoDB as the backend database.<br>
   With this app, you can track your budget by adding expenses/deposits to your budget.<br>
+  The app also uses indexedDB and service workers to allow for offline functionality, as well as a desktop version of the app that you can download!
 
   ## Table of Contents
 
